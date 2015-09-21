@@ -10,6 +10,7 @@ namespace ex16
     {
         static void Main(string[] args)
         {
+            //this is a comment
         }
     }
 }
