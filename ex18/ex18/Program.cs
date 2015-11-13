@@ -16,8 +16,8 @@ namespace ex18
             Console.WriteLine(num1);
             Console.WriteLine(num2);
             long sum = 0;
-            int count = 2;//count starts at 2 because the first tow numbers were alredy printed
-            while(sum<1000)//running the loop as long as the sum is under than 1000
+            int count = 2;//count starts at 2 because the first tow numbers were already printed
+            while (sum < 1000)//running the loop as long as the sum is under than 1000
             {
                 temp = num1 + num2;
                 sum = sum + num2 + temp;//calculating the sum of fibonacci numbers up to this iteration
@@ -26,7 +26,7 @@ namespace ex18
                 num1 = num2 - num1;
                 count++;
             }
-            Console.WriteLine("the number of fibonacci numbers whos sum is less then 1000 is: "+count);
+            Console.WriteLine("the number of fibonacci numbers who’s sum is less then 1000 is: " + count);
         }
     }
 }
