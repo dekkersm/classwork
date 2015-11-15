@@ -16,13 +16,10 @@ namespace grd_avg
             int count = 0;
             while(grd != 999)//running the loop as long as the grade is diffrent from 999
             {
+                sum = grd + sum;
+                count++;
                 Console.WriteLine("insert a grade");
                 grd = int.Parse(Console.ReadLine());
-                if (grd != 999)//preform the actions only if the grade is not 999
-                {
-                    sum = grd + sum;
-                    count++;
-                }
             }
             avg = sum / count; ;//calculating the average
             Console.WriteLine("the average of the grades is : " + avg);
